@@ -17,9 +17,6 @@ class App extends Component {
   closeModel = () => {
     this.setState({modalIsOpen: false});
   }
-  modalFlipHandler = () => {
-
-  }
   render() {
     return (
       <div className="App">
